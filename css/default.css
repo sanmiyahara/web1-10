@@ -44,3 +44,29 @@ footer{
 }
 
   .wf-sawarabimincho { font-family: "Sawarabi Mincho"; }
+
+/* 1025px1以上 */
+@media screen and (min-width:1025px){
+  #main{
+    max-width: 1024px;
+    margin: auto;
+  }
+  section{
+    width: calc(70% - 20px);
+    float:left;
+  }
+  #side{
+    width: calc(1024px - 718px);
+    float:left;
+  }
+  aside{
+    width: calc(100% - 20px);
+  }
+  #main:after{
+    /* footerを下に回り込ませる */
+    /* clearfix */
+    content:"";
+    display:block;
+    clear:both;
+  }
+}
