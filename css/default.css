@@ -1,11 +1,5 @@
 @charset "utf-8"
 
-  /* reset css */
-  *{
-    margin: 0;
-    padding: 0;
-}
-
   body{
     background-color: lightsteelblue;
     font-family: 'Merriweather', serif;
