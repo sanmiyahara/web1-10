@@ -1,36 +1,32 @@
 @charset "utf-8"
-  
+
+  /* reset css */
   *{
     margin: 0;
     padding: 0;
 }
 
-@media screen and (max-width:640px){
   body{
-    background-color: coral;
-    font-family: "Sawarabi Mincho";
-  }
+    background-color: lightsteelblue;
 }
 
-@media screen and (min-width:641px) and (max-width:980px){
-  body{
-    background-color: mediumseagreen;
-  }
+header{
+  padding: 10px;
+  text-align: center;
+  background-color: coral;
+}
+section{
+  padding: 10px;
+  background-color: lightsalmon;
+}
+aside{
+  padding: 10px;
+  background-color: mediumseagreen;
+}
+footer{
+  padding: 10px;
+  background-color: dodgerblue;
+  text-align: center;
 }
 
-@media screen and (min-width:981px){
-  body{
-    background-color: dodgerblue;
-  }
-}
-
-@media screen and (orientation:portrait){
-  body:after {
-    content: "縦長";
-  }
-}
-
-@media screen and (orientation:landscape){
-  body:after {
-    content: "横長";
-  }
+  .wf-sawarabimincho { font-family: "Sawarabi Mincho"; }
