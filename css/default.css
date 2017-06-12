@@ -7,20 +7,20 @@
 
 @media screen and (max-width:640px){
   body{
-    background-color: red;
+    background-color: coral;
     font-family: "Sawarabi Mincho";
   }
 }
 
 @media screen and (min-width:641px) and (max-width:980px){
   body{
-    background-color: green;
+    background-color: mediumseagreen;
   }
 }
 
 @media screen and (min-width:981px){
   body{
-    background-color: blue;
+    background-color: dodgerblue;
   }
 }
 
