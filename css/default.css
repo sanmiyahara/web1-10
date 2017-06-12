@@ -8,6 +8,7 @@
 
   body{
     background-color: lightsteelblue;
+    font-family: 'Merriweather', serif;
 }
 
 header{
@@ -42,8 +43,6 @@ footer{
     clear:both
   }
 }
-
-  .wf-sawarabimincho { font-family: "Sawarabi Mincho"; }
 
 /* 1025px1以上 */
 @media screen and (min-width:1025px){
